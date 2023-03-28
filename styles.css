@@ -1,0 +1,44 @@
+div{
+    
+
+    border: 1px solid;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    background: white;
+    justify-content: space-around;
+    padding: 8px;
+    background: #1f2937;
+}
+
+.hero{
+    background: blue;
+}
+
+.info{
+    background: green;
+}
+
+.quote{
+    background: yellow;
+}
+
+.action{
+    background: cyan;
+}
+
+.footer{
+    background: magenta;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
