@@ -13,13 +13,19 @@ body{
 .header{
     display: flex;
     background: white;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 8px;
     background: #1f2937;
 }
 
 .hero{
-    background: blue;
+    background: #1f2937;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
 }
 
 .info{
@@ -40,5 +46,12 @@ body{
 
 a{
     text-decoration: none;
-    color: black;
+    color: #e5e7eb;
+    font-size: 18px;
+    
+}
+
+.links{
+    display: flex;
+    gap: 20px;
 }
