@@ -44,14 +44,23 @@ body{
 
 }
 
-.info{
-    background: white;
-    color: #1f2937;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+.info,.action{
     gap: 48px;
     margin: 48px 0px 96px 0px;
+    display:flex;
+    background: white;
+    color: #1f2937;
+}
+
+.action{
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info{
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .info-title{
@@ -70,7 +79,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     margin: 0px 48px;
-    border: 2px solid red;
+
 }
 
 .boxes{
@@ -108,13 +117,12 @@ body{
 }
 
 
-
-.action{
-    background: cyan;
-}
-
 .footer{
-    background: magenta;
+    background: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 48px;
 }
 
 a{
@@ -164,12 +172,12 @@ a{
 
 .hero-second{
     font-size: 18px;
-    color: #e5e7eb;
+    color: #f9faf8;
 }
 
 .signup{
     background-color: #3882f6;
-    color: #e5e7eb;
+    color: #f9faf8;
     font-weight: bold;
     font-size: 18px;
     width: 135px;
@@ -182,12 +190,28 @@ a{
     flex-direction: column;
     align-items: center;
     background: #e5e7eb;
-    font-size: 18px;
+    font-size: 36px;
     font-style: italic;
     font-weight: 100;
-    color: #1f2937
+    color: #1f2937;
+    padding: 100px 200px;
+}
+
+.quote-text,.quoted{
+
+    flex-shrink: 1;
+
+}
+
+.quoted{
+    font-weight: bold;
+    padding-left: auto;
+    align-self: flex-end;
 }
 
 .blue-box{
     background: #3882f6;
+    display: flex;
+
+    flex: 0 1 auto;
 }
